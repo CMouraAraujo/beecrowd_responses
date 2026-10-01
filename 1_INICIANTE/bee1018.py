@@ -7,7 +7,7 @@ ten_bills, ten_bills_rest = int(twenty_bills_rest/10), twenty_bills_rest % 10
 five_bills, five_bills_rest = int(ten_bills_rest/5), ten_bills_rest % 5
 two_bills, two_bills_rest = int(five_bills_rest/2), five_bills_rest % 2
 
-
+print(value)
 print(f"{hundred_bills} nota(s) de R$ 100,00")
 print(f"{fifty_bills} nota(s) de R$ 50,00")
 print(f"{twenty_bills} nota(s) de R$ 20,00")
