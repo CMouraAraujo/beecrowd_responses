@@ -1,5 +1,3 @@
-import math
-
 value = float(input())
 inter = int(value)
 coins = int((value - inter) * 100)
