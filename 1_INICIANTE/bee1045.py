@@ -32,21 +32,21 @@ elif point_b >= point_a:
             point_c = point_a
             point_a = helper_variable
         
-print(point_a, point_b, point_c)
 
 if point_a >= point_b + point_c:
     print("NAO FORMA TRIANGULO")
-if math.pow(point_a, 2) == math.pow(point_b, 2) + math.pow(point_c, 2):
-    print("TRIANGULO RETANGULO")
-if math.pow(point_a, 2) > math.pow(point_b, 2) + math.pow(point_c, 2):
-    print("TRIANGULO OBTUSANGULO")
-if math.pow(point_a, 2) < math.pow(point_b, 2) + math.pow(point_c, 2):
-    print("TRIANGULO ACUTANGULO")
-if point_a == point_b == point_c:
-    print("TRIANGULO EQUILATERO")
-if (point_a == point_b and point_b != point_c):
-    print("TRIANGULO ISOSCELES")
-if (point_a == point_c and point_a != point_b):
-    print("TRIANGULO ISOSCELES")
-if (point_c ==  point_b and point_c != point_a):
-    print("TRIANGULO ISOSCELES")
+else:
+    if math.pow(point_a, 2) == math.pow(point_b, 2) + math.pow(point_c, 2):
+        print("TRIANGULO RETANGULO")
+    if math.pow(point_a, 2) > math.pow(point_b, 2) + math.pow(point_c, 2):
+        print("TRIANGULO OBTUSANGULO")
+    if math.pow(point_a, 2) < math.pow(point_b, 2) + math.pow(point_c, 2):
+        print("TRIANGULO ACUTANGULO")
+    if point_a == point_b == point_c:
+        print("TRIANGULO EQUILATERO")
+    if (point_a == point_b and point_b != point_c):
+        print("TRIANGULO ISOSCELES")
+    if (point_a == point_c and point_a != point_b):
+        print("TRIANGULO ISOSCELES")
+    if (point_c ==  point_b and point_c != point_a):
+        print("TRIANGULO ISOSCELES")
