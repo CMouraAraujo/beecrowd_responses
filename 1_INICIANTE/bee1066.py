@@ -21,7 +21,7 @@ for val in nums_list:
         odd_vals+=1
 
         
-print(f"{even_vals} valor(es) par(es")
+print(f"{even_vals} valor(es) par(es)")
 print(f"{odd_vals} valor(es) impar(es)")
 print(f"{pos_vals} valor(es) positivo(s)")
 print(f"{neg_vals} valor(es) negativo(s)")
