@@ -15,11 +15,11 @@ for n in range(loop):
         ratos+=int(value[0])
     elif value[1] == "S":
         sapos+=int(value[0])
-  
+
 total_coelhos = (coelhos/total)*100   
 total_ratos = (ratos/total)*100   
 total_sapos = (sapos/total)*100   
-     
+
 print(f"Total: {total} cobaias")
 print(f"Total de coelhos: {coelhos}")
 print(f"Total de ratos: {ratos}")
